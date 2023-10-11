@@ -73,7 +73,7 @@ public class MediaStoreCompat {
 
     public void dispatchCaptureIntent(Context context, int requestCode) {
         Intent captureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        if (captureIntent.resolveActivity(context.getPackageManager()) != null) {
+        if (captureIntent.resolveActivity(context.getPackageManager()) != null ||  context.getPackageManager().hasSystemFeature(context.getPackageManager().FEATURE_CAMERA_ANY)) {
             File photoFile = null;
             try {
                 photoFile = createImageFile();
