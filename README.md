@@ -3,8 +3,8 @@
 # Matisse
 [![Build Status](https://travis-ci.org/zhihu/Matisse.svg)](https://travis-ci.org/zhihu/Matisse) [ ![Download](https://api.bintray.com/packages/zhihu/maven/matisse/images/download.svg) ](https://bintray.com/zhihu/maven/matisse/_latestVersion)
 
-支持gradle 7.2 jdk 11。
-支持android 11 选择图片/拍照
+##支持gradle 7.2 jdk 11。
+##支持android 11 选择图片/拍照
 
 Matisse is a well-designed local image and video selector for Android. You can  
 - Use it in Activity or Fragment
@@ -27,7 +27,7 @@ Gradle:
 maven { url 'https://jitpack.io' }
 
 dependencies {
-    implementation 'com.github.qiao236349845:myMatisse:1.0.0'
+    implementation 'com.github.qiao236349845:myMatisse:1.0.1'
 }
 ```
 
